@@ -4,12 +4,16 @@ import "./index.css";
 import App from "./App";
 import FunctionSection from "./Components/JonasJS/Function";
 import reportWebVitals from "./reportWebVitals";
+import NavbarHeader from "./Components/Navbar/Index";
+import HooksUseState from "./Components/Hooks/Usestate";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <FunctionSection />
+    {/* <HooksUseState /> */}
+    <App />
+    {/* <NavbarHeader />
+    <FunctionSection /> */}
   </React.StrictMode>
 );
 
