@@ -19,7 +19,6 @@ const App = () => {
   };
   return (
     <div>
-      
       {isLoader ? <Loader /> : <h1>I have been loaded</h1>}
       <button onClick={handleLoader} style={{ backgroundColor: "green" }}>
         {isLoader ? "Hide" : "Show"}
